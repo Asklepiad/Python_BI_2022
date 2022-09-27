@@ -64,10 +64,12 @@ while command_flag:
                     "Print your command here: ")
     
     if command.lower() == "exit":
+        command_flag = 5
         print("It was a good hunt!")
         break
         
     elif command.lower() == "transcribe":
+        command_flag = 5
         nucl_info = nucl_input()
         nucl_acid = nucl_info[0]
         nucl_type = nucl_info[1]
@@ -82,12 +84,14 @@ while command_flag:
         print()
         
     elif command.lower() == "reverse":
+        command_flag = 5
         print("Result is", end=" ")
         nucl_acid = nucl_input()[0]
         print(nucl_acid[::-1])
         print()
         
     elif command.lower() == "complement":
+        command_flag = 5
         nucl_info = nucl_input()
         nucl_acid = nucl_info[0]
         nucl_type = nucl_info[1]
@@ -102,6 +106,7 @@ while command_flag:
         print()
         
     elif command.lower() == "reverse complement":
+        command_flag = 5
         nucl_info = nucl_input()
         nucl_acid = nucl_info[0]
         nucl_type = nucl_info[1]
