@@ -34,13 +34,13 @@ If user enter uncorrect command utility takes a message about it. After five uns
 
 ### About nucleic acid input
 
-After entering command user need to print or paste nucleic acid sequence. It must contain only symbols 'A', 'C', 'G', 'T', 'U', 'R', 'Y', 'N' in uppercase or lowercase mode. If it contains some other symbols utility says about it.
-
 ![Entering NA](/hw_2/3Nucleotide.png)
 
-The other mistacable thing is mixing 'U' and 'T' in one aminoacid. If it appears utility send a warning message to user.
-If nucleic acid has neither 'U', nor 'T' "NucAUt" send warning message too. If the user prints 'yes' (or 'YES', or 'YeS' or something else) acid will be processed as DNA. If user enters something different - the acid will be processed as RNA.
+After entering command user need to print or paste nucleic acid sequence. It must contain only symbols 'A', 'C', 'G', 'T', 'U', 'R', 'Y', 'N' in uppercase or lowercase mode. If it contains some other symbols utility says about it.
 
 ![DNA or RNA, what is a quetion](/hw_2/4DR.png)
+
+The other mistacable thing is mixing 'U' and 'T' in one aminoacid. If it appears utility sends a warning message to user.
+If nucleic acid has neither 'U', nor 'T' "NucAUt" sends a warning message too. If the user prints 'yes' (or 'YES', or 'YeS' or something else) an acid will be processed as DNA. If user enters something different - the acid will be processed as RNA.
 
 ![The end](/hw_2/5exit.png)
