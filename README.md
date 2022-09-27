@@ -31,3 +31,4 @@ If user enter uncorrect command utility takes message about it. After five unsuc
 After entering command user need to print or paste nucleic acid sequence. It must contain only symbols 'A', 'C', 'G', 'T', 'U', 'R', 'Y', 'N' in uppercase or lowercase mode. If it contains some other symbols utility says about it.
 
 The other mistacable thing is mixing 'U' and 'T' in one aminoacide. If it appears utility send warning message to user.
+If nucleic acid has neither 'U', nor 'T' "NucAUt" send warning message too. If user prints 'yes' (or 'YES', or 'YeS' or something else) acid will be processed as DNA. If user enters something different - acid will be processed as RNA.
