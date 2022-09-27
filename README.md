@@ -1,15 +1,15 @@
 # Python_BI_2022
 Repository for bioinformatics institute
 
-# "NucAUt" - Nucleic acid utility
+## "NucAUt" - Nucleic acid utility
 
 
-## Fast description
+### Fast description
 
 This is the utility for performing some basic manipulations with nucleic acids. 
 
 
-## About commands
+### About commands
 
 You can input one of five command: exit, transcribe, reverse, complement and reverse complement.
 
@@ -26,7 +26,7 @@ If you will choose "complement" command the utility yields nucleic acid compleme
 If user enter uncorrect command utility takes message about it. After five unsuccessful attempts utility stops.
 
 
-## About nucleic acid input
+### About nucleic acid input
 
 After entering command user need to print or paste nucleic acid sequence. It must contain only symbols 'A', 'C', 'G', 'T', 'U', 'R', 'Y', 'N' in uppercase or lowercase mode. If it contains some other symbols utility says about it.
 
