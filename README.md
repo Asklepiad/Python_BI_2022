@@ -12,6 +12,8 @@ This is the utility for performing some basic manipulations with nucleic acids.
 ### About commands
 
 You can input one of five command: exit, transcribe, reverse, complement and reverse complement.
+
+
 ![Entering commands](/hw_2/1print.png)
 
 After first one programm ends.
