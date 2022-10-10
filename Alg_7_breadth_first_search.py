@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[34]:
-
 
 from collections import deque
 def person_is_seller(name1):
