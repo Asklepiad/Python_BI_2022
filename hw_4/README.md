@@ -52,3 +52,4 @@ If the name "py310" will appear on the left part of the command line, it's all c
   `python3 ./<directory with pain.py>/pain.py`
   
 P.S. Sometimes samurai has a target.
+![The target_of_the_samurai](./The_target.png)
