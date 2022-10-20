@@ -20,8 +20,9 @@ It's important to use virtual environments when using different tools and python
 
 If py310 is not in the apeeared list, you may use it while creating a new virtual environment. If not, you may use another name. In this guide, I will use the "py310" name. If it has already existed, you need to use another name for the virtual environment.
 `conda create -n py310 python=3.10`
+You need to print "y", when programm wiil answer you about proceeding.
 
-Then you need to activate this virtual environment.
+Then you need to activate this virtual environment, if you are now in any virtual environment, at first deactivate it with command `conda deactivate`. If not, do the next step. Print:
 `conda activate py310`
 
 If the name "py310" will appear on the left part of the command line, it's all correct.
@@ -33,7 +34,7 @@ If the name "py310" will appear on the left part of the command line, it's all c
   `cd ./pain_directory`
   
   Second, you need to create venv and activate it.
-  `pip -m venv pain`
+  `python3 -m venv pain`
   `source pain/bin/activate`
   
   At this stage you need to have (pain)(py310) on the left part of the command line.
