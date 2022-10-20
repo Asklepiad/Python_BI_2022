@@ -7,7 +7,7 @@ Repository for bioinformatics institute
 ### System properties
 
 The script was run on the GNU Linux **Ubuntu 20.04** LTS, with **Python** version **3.10.6**
-I used **pip** version **20.0.2**
+I used **pip** version **22.2.1**
 
 
 ### Fast description
@@ -15,6 +15,8 @@ I used **pip** version **20.0.2**
 It's important to use virtual environments when using different tools and python scripts for escaping incompatibilities.
 1. In the first stage it needs to create a new conda virtual environment for the exact python version. You need to input on the command line described below script. First, it needs to check if the name of the next virtual environment has already existed.
 `conda env list`
+
+![Example of the command's output](./Conda_env_list.png)
 
 If py310 is not in the apeeared list, you may use it while creating a new virtual environment. If not, you may use another name. In this guide, I will use the "py310" name. If it has already existed, you need to use another name for the virtual environment.
 `conda create -n py310 python=3.10`
