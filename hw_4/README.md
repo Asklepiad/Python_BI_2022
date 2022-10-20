@@ -42,9 +42,10 @@ If the name "py310" will appear on the left part of the command line, it's all c
   
  3. Next step is cloning the repository with script and requirements.txt
   `git clone <repository_url>`
+  If you have problems with cloning of the repository, you always can copy and paste interesting files manually.
   
   You need to install requirements with the command:
-  `pip install -r requirements.txt`
+  `pip install -r ./<directory with requirements.txt>requirements.txt`
   
   Making the file executable is realized by the next command:
   `chmod +x ./<directory with pain.py>/pain.py`
