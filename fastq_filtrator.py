@@ -13,10 +13,7 @@ def gc_p(str2, gc_bounds):
     if type(gc_bounds) == int:
         return gc_percent <= gc_bounds
     else:
-        if (gc_percent <= gc_bounds[1]) and (gc_percent >= gc_bounds[0]):
-            return True
-        else:
-            return False
+        return gc_bounds[0] <= gc_percent <= gc_bounds[1]:
 
         
 # Function for counting length of sequence. Returns "True" if length is in given interval, returns "False" otherwise.
