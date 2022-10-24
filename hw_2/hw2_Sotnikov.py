@@ -26,7 +26,7 @@ def nucl_input():
             if nucleotide in nucl_data:
                 nucl_point -= 1
                 if nucl_point == 0:    
-                    if 'U' in nucl_acid.upper() and 'T' in nucl_acid.upper():
+                    if {'U', 'T'} <= set(nucl_acid.upper()):
                         print("Your sequence must contain either 'U' or 'T'" "\n"
                                  "Paste correct sequence again, please: ")
                         continue
