@@ -11,10 +11,7 @@ def gc_p(str2, gc_bounds):
     gc_percent = (gc_count / len(str2)) * 100
     
     if type(gc_bounds) == int:
-        if gc_percent <= gc_bounds:
-            return True
-        else:
-            return False
+        return gc_percent <= gc_bounds
     else:
         if (gc_percent <= gc_bounds[1]) and (gc_percent >= gc_bounds[0]):
             return True
