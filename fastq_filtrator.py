@@ -7,8 +7,7 @@
 def gc_p(str2, gc_bounds):
     gc_count = 0
     for nucleotide in str2:
-        if nucleotide == "G" or nucleotide == "C":
-            gc_count += 1
+        gc_count += (nucleotide == "G" or nucleotide == "C")
     gc_percent = (gc_count/len(str2))*100
     
     if type(gc_bounds) == int:
