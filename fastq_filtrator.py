@@ -104,7 +104,7 @@ def main(input_fastq,
 # Choosing of branch depends on save_filtered
 
     if save_filtered == False:
-        with open(input_fastq, "r+") as file_input, open(output_file_prefix+"_passed.fastq", "w") as file_output:
+        with open(input_fastq, "r+") as file_input, open(output_file_prefix + "_passed.fastq", "w") as file_output:
             master(file_input, file_output, gc_bounds, length_bounds, quality_threshold, save_filtered = False)
     else:
         with open(input_fastq, "r+") as file_input, open(output_file_prefix+"_passed.fastq", "w") as file_output, open(output_file_prefix+"_failed.fastq", "w") as file_error:
