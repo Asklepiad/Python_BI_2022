@@ -63,17 +63,10 @@ def filtrate(str1, str2, str3, str4, file_output, file_error, gc_bounds, length_
 # Taking every four lines of fastq
 
 def master(file_input, file_output, gc_bounds, length_bounds, quality_threshold, save_filtered, file_error=None):
-    count = 0
-    for line in file_input:
-        count+=1
-        if count % 4 == 1:
-            string1 = line
-        elif count % 4 == 2:
-            string2 = line
-        elif count % 4 == 3:
-            string3 = line
-        elif count % 4 == 0:
-            string4 = line
+    string1 = file_input.readline().strip()
+    string2 = file_input.readline().strip()
+    string3 = file_input.readline().strip()
+    string4 = file_input.readline().strip()
 
             filtrate(string1, string2, string3, string4, file_output, file_error, gc_bounds, length_bounds, quality_threshold, save_filtered)
             
