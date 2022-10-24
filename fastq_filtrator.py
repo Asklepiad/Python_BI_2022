@@ -69,7 +69,7 @@ def filtrate(str1, str2, str3, str4, file_output, file_error, gc_bounds, length_
                 
 # Taking every four lines of fastq
 
-def master(file_input, file_output, gc_bounds, length_bounds, quality_threshold, save_filtered, file_error = ""):
+def master(file_input, file_output, gc_bounds, length_bounds, quality_threshold, save_filtered, file_error=None):
     count = 0
     for line in file_input:
         count+=1
