@@ -25,11 +25,11 @@ def multiplication_list_of_matrices(list_of_matrices):
     flag = "first"
     flag2 = True
     multiplicated_matrix = None
-    for matrix_number in range(1,len(list_of_matrices)):
+    for matrix_number in range(1, len(list_of_matrices)):
         if flag == "first":
             flag = "not first"
-            if list_of_matrices[matrix_number].shape[0] == list_of_matrices[matrix_number-1].shape[1]:
-                multiplicated_matrix = list_of_matrices[matrix_number-1] @ list_of_matrices[matrix_number]
+            if list_of_matrices[matrix_number].shape[0] == list_of_matrices[matrix_number - 1].shape[1]:
+                multiplicated_matrix = list_of_matrices[matrix_number - 1] @ list_of_matrices[matrix_number]
             else:
                 flag2 = False
                 break
@@ -73,7 +73,7 @@ def compute_multidimensional_distance(coords1, coords2):
 # Computation of distance between matrices
 def compute_pair_distances(d2_matrix):
     for i in range(np.shape(d2_matrix)[0]):
-        diff = np.array(d2_matrix[i]-d2_matrix)
+        diff = np.array(d2_matrix[i] - d2_matrix)
         dist = np.sqrt(np.sum(diff**2, axis=1))
         if i == 0:
             result = np.copy(dist)
