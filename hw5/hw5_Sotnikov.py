@@ -20,6 +20,7 @@ def matrix_multiplication(matrix1, matrix2):
     return matrix1 @ matrix2
 
 
+
 # Checking possibility of matrix multiplication and multiplication, if possible
 def multiplication_list_of_matrices(list_of_matrices):
     flag = "first"
@@ -43,9 +44,11 @@ def multiplication_list_of_matrices(list_of_matrices):
     return result
 
 
+
 # Checking of matrices multiplication possibility
 def multiplication_check(list_of_matrices):
     return multiplication_list_of_matrices(list_of_matrices)[1]
+
 
 
 # Matrices polymultiplication
@@ -64,11 +67,15 @@ def compute_2d_distance(coords1, coords2):
     dist = np.sqrt(np.sum(diff**2))
     return dist
 
+
+
 # Computation of distance in k-D space
 def compute_multidimensional_distance(coords1, coords2):
     diff = coords1 - coords2
     dist = np.sqrt(np.sum(diff**2))
     return dist
+
+
 
 # Computation of distance between matrices
 def compute_pair_distances(d2_matrix):
@@ -80,4 +87,3 @@ def compute_pair_distances(d2_matrix):
         else:
             result = np.vstack([result, dist])
     return result
-
