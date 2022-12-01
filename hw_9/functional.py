@@ -13,7 +13,7 @@ import sys
 # sequential_map
 def sequential_map(*args):
     container = args[-1]
-    for i in args[:len(args)-1]:
+    for i in args[:len(args) - 1]:
         container = list(map(i, container))
     return(container)
 
@@ -24,7 +24,7 @@ def sequential_map(*args):
 # consensus_filter
 def consensus_filter(*args):
     container = args[-1]
-    for i in args[:len(args)-1]:
+    for i in args[:len(args) - 1]:
         container = list(filter(i, container))
     return(container)
 
