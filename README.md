@@ -103,3 +103,5 @@ Lexicographically sorted strings.
 
 > Conditions, warnings and errors
 If you didn't save the script in the one of the directories, which is output of `sys.path` command, script will work only if you write path to folder with script, as example `/home/name/IB/python/sort.py wc.py`. You can't put text in the `sort.py` explicitly, you can only put the file or ptint something in the stdin. `sort.py` can work with pipes. As example: `grep "pattern" <file> | sort"
+
+ Dixi et, animam levavi
