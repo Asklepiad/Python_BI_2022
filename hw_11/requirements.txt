@@ -1,0 +1,5 @@
+DateTime==5.0
+numpy==1.24.2
+python-abc==0.2.0
+pytz==2022.7.1
+zope.interface==5.5.2
