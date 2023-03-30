@@ -1,3 +1,0 @@
-dataclasses==0.6
-docutils==0.19
-statistics==1.0.3.5
